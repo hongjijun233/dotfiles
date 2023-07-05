@@ -33,3 +33,9 @@ zsh
 apt install tmux
 echo "source ~/projects/opensource/dotfiles/tmux/.tmux.conf" > ~/.tmux.conf
 ```
+
+## for enviroment
+### for go1.20
+```
+wget -c https://go.dev/dl/go1.20.5.linux-amd64.tar.gz -O - | sudo tar -xz -C /usr/local
+```
