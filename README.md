@@ -5,6 +5,9 @@ apt install vim
 echo "source ~/projects/opensource/dotfiles/vim/vim-init/vim.init" > ~/.vimrc
 
 :PlugInstall
+
+# 需要安装ctags
+sudo apt-get install universal-ctags
 ```
 need to install ycmd
 
