@@ -38,7 +38,19 @@ echo "source ~/projects/opensource/dotfiles/tmux/.tmux.conf" > ~/.tmux.conf
 ```
 
 ## for enviroment
+### for others
+```
+apt-get install build-essential python3-dev \
+ libldap2-dev libsasl2-dev slapd ldap-utils tox \
+ lcov valgrind
+```
 ### for go1.20
 ```
 wget -c https://go.dev/dl/go1.20.5.linux-amd64.tar.gz -O - | sudo tar -xz -C /usr/local
+```
+
+### for pyenv
+```
+curl https://pyenv.run | bash
+
 ```
