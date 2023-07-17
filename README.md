@@ -2,7 +2,7 @@
 ## for vim
 ```
 apt install vim
-echo "source ~/projects/opensource/dotfiles/vim/vim-init/vim.init" > ~/.vimrc
+echo "source ~/projects/opensource/dotfiles/vim/vim-init/init.vim" > ~/.vimrc
 
 :PlugInstall
 
